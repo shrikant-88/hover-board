@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+.box{
+    border: 2px black solid;
+    background-color: gray;
+    height: auto;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.s-box{
+    background-color: rgb(57, 55, 55);
+    height: 7px;
+    width: 7px;
+    margin: 1px;
+    transition-duration: 2s;
+}
+.s-box:hover{
+    transition-duration: 0s;
+}
